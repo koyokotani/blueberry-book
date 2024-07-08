@@ -3,4 +3,6 @@ const obj = {
   bar: "Hello World!"
 }
 
-console.log(obj);
+
+
+console.log(obj)
