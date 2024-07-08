@@ -15,5 +15,13 @@ npx tsc
 
 ### 確認
 ```
-node dest/index.js
+node dist/index.js
+```
+
+### 注意
+トップレベルにcontを定義する関係上、変数名がファイル間で被ってエラーとなるため全てのファイルをモジュールとして扱っている
+```
+tsconfig.json
+
+"moduleDetection": "force", 
 ```
