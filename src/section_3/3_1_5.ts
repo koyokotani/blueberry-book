@@ -33,10 +33,10 @@ const obj5 = {
 
 // ...obj3より前にfooを宣言するとコンパイルエラー
 // fooが上書きされるのが決まっているため
-const obj6 = {
-  foo: 123,
-  ...obj3,
-};
+// const obj6 = {
+//   foo: 123,
+//   ...obj3,
+// };
 
 const obj7 = {
   bar: 456,
